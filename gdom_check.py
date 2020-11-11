@@ -1,3 +1,4 @@
+#!/usr/local/bin/python3
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 import sys
