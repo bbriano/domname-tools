@@ -22,8 +22,5 @@ except:
 
 chars = string.ascii_lowercase
 
-TLDS = [".io"]
-
 for _ in range(nnames):
-    for tld in TLDS:
-        sys.stdout.write("%s%s\n" % (str_permutation(nchars, chars), tld))
+    print(str_permutation(nchars, chars))
